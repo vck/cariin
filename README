@@ -1,0 +1,13 @@
+tribunnews.com scrapper
+----------------------
+
+target class: 
+
+- p1520 art-list pos_rel 
+- fr mt5 pos_rel
+
+how the search engine works
+--------------------------
+
+use redisearch to build the db, the scrapper will scrap for title, body, and url on tribunnews.com
+the next step is to push in the data to redis.
